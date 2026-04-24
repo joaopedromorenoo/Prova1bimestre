@@ -47,13 +47,12 @@ public class Main {
             System.out.println("|3- Cadastrar Contrato            |");
             System.out.println("|4- Encerrar Contrato             |");
             System.out.println("|5- Lista de Contratos            |");
-            System.out.println("|6- Lista de Inquilinos e Imóveis |");
-            System.out.println("|7- Sair                          |");
+            System.out.println("|6- Sair                          |");
             System.out.print("|Escolha: ");
             escolha = scan.nextInt();
             scan.nextLine();
             validarEscolha(escolha);
-        } while (escolha != 7);
+        } while (escolha != 6);
     }
 
     // Validação da escolha do menu
@@ -75,17 +74,6 @@ public class Main {
                 listarContratos();
                 break;
             case 6:
-                System.out.println("\n--- Lista de Inquilinos e Lista de Imóveis ---");
-                System.out.println("\n--- Lista de Inquilinos ---");
-                for (Inquilino in : inquilino) {
-                    in.mostrarInquilino();
-                }
-                System.out.println("\n--- Lista de Imóveis ---");
-                for (Imovel im : imovel) {
-                    im.mostrarImovel();
-                }
-                break;
-            case 7:
                 System.out.println("Obrigado, volte sempre!");
                 break;
             default:
