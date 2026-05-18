@@ -14,7 +14,7 @@ além de controle de status (ativo/encerrado).
 - Listar contratos ativos com valor total calculado automaticamente
 - Menu interativo via terminal
 
---------------------------------------------------------------------------------------------------------
+---
 
 ## Estrutura do Projeto
 
@@ -28,7 +28,7 @@ além de controle de status (ativo/encerrado).
 └── Main.java            # Ponto de entrada + menu interativo
 ```
 
---------------------------------------------------------------------------------------------------------
+---
 
 ## Conceitos Aplicados
 
@@ -38,7 +38,7 @@ além de controle de status (ativo/encerrado).
 - **ArrayList** — armazenamento dinâmico de inquilinos, imóveis e contratos
 - **Scanner** — entrada de dados via terminal
 
---------------------------------------------------------------------------------------------------------
+---
 
 ## Como Executar
 
@@ -66,7 +66,7 @@ além de controle de status (ativo/encerrado).
    java Main
    ```
 
---------------------------------------------------------------------------------------------------------
+---
 
 ## Demonstração
 
@@ -86,13 +86,13 @@ Valor Total: R$ 14400,00 | Situação: Ativo
 -------------------------------
 ```
 
---------------------------------------------------------------------------------------------------------
+---
 
 ## Tecnologias
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
---------------------------------------------------------------------------------------------------------
+---
 
 ## Autor
 
