@@ -3,7 +3,7 @@
 Sistema de gerenciamento de contratos de aluguel desenvolvido em Java, com cadastro de inquilinos, imóveis e contratos,
 além de controle de status (ativo/encerrado).
 
---------------------------------------------------------------------------------------------------------
+---
 
 ## Funcionalidades
 
